@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us Page</title>
+    
+    <link rel="stylesheet" href="about_us.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/703cdd5852.js" crossorigin="anonymous"></script>
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+	 
+<body >
+       <section class="header">
+            <nav>
+           <!--     <a href="index.html"><img src="img/logo.jpg"></a> -->
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="contact_us.html">CONTACT US</a></li>
+                        <li><a href="">PRICES</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav> 
+            <div class="text-box">
+                <h1>About Us</h1>                
+            </div>  
+        </section> 
+
+<!--About Us content-->        
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>A Wonderful Community</h1>
+                    <p>If you are looking for a good modern fshionable gym with modern values, you are found it! <br>
+                    We have everything you need for a fantasic experince, as well as a community that we will turn your time at the gym into a pleasure, not a chore.<br>
+                    We look forward to welcome yo to our fitness gym family and helping yoy smash your fitness goals while having a LOT of fan.</p>
+                </div>
+                <div class="about-col">
+                    <img src="img/aboutus.webp">
+                </div>
+            </div>         
+        </section>
+
+
+<!--ABOUT US-->
+
+            <section class="footer">
+                <div>
+                    <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <div class="icons">
+                    <i class="fa fa-whatsapp"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <a href="#">Read More About Us &raquo;</a>
+                </div>                              
+            </section>
+    
+<!-- Java Script for toggle Menu-->  
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script> 
+        
+
+</body>
+</html>

@@ -1,12 +1,238 @@
 
 
 
-body{
+html,body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+
+.navbar{
+    padding: .8rem;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.nav-link{
+    font-size: 1.1rem !important;
+}
+
+
+
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
 }
 
 /*--Cover Image--*/
-
-.carousel-item img {
-    min-height: 100vh;
+.carousel-item  img{
+    width: 100%;
+    height: 90vh;
 }
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px 10px #000;
+
+}
+
+.padding{
+    padding-bottom: 2rem;
+}
+
+.welcome{
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 75%;
+    margin-bottom: 1rem;
+}
+
+.contact{
+    background-color: rgba(246, 246, 252, 0.925);
+}
+
+.contact h1{
+    font-weight: 500;
+}
+
+.contact h3{
+    font-weight: 700;
+}
+
+.contact p{
+    margin: 0;
+    padding: 0;
+}
+
+.whatsapp .fa.fa-whatsapp{
+    color: #15ce2d;
+    font-size: 4em;
+    margin: 1rem;
+    
+}
+
+.fa.fa-volume-control-phone{
+    color: #f80808;
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.fa.fa-location-arrow{
+    color: rgb(25, 9, 250);
+    font-size: 4em;
+    margin: 1rem;
+}
+
+hr .my-4{
+    margin: 0;
+    padding: 0;
+}
+
+/*--Prices--*/
+
+.prices h1{
+    font-weight: 500;
+    color: #08b3f7;
+}
+
+.prices img{
+    height: 75%;
+    width: 75%;
+}
+
+/*--table title--*/
+
+.prices table{
+    width: 80%;
+    min-height: 70%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+.prices table ,th{
+border: 1px solid black;
+border-collapse:collapse;
+padding: 10px;
+}
+
+.prices table ,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+/*--our team--*/
+.ourteam h1{
+color: white;
+font-weight: 600;
+}
+
+.team , .ourteam{
+    background-color: grey;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+
+/*--About us--*/
+.description{
+    background-color: rgba(246, 246, 252, 0.925);
+    padding: 5px;
+}
+
+.description p{
+    width: 98%;
+    text-align: center;
+    
+}
+
+.aboutus{
+    padding: 3em;
+    
+}
+
+/*--footer--*/
+.footer {
+    width: 80%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons {
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    text-align: center;
+}
+
+.in-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.in-col img {
+    width: 80%;
+}
+
+.in-col h1 {
+    padding-top: 0;
+}
+
+ footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
